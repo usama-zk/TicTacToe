@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #395c6b;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main h1 {
+  color: #e6e1c5;
+}
+.box {
+  width: 30vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2px;
+}
+.box button {
+  height: 9.9vw;
+  width: 9.9vw;
+  border-radius: 1rem;
+  background-color: #bcd3f2;
+  font-size: 3em;
+  color: #938119;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #80a4ed;
+}
