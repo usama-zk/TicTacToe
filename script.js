@@ -39,6 +39,7 @@ function checkWinner() {
     if (val1 != "" && val2 != "" && val3 != "") {
       if (val1 == val2 && val2 == val3) {
         alert(val1 + " is Winner");
+        resetFun();
       }
     }
   }
